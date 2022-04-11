@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+html{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+
+.container {
+    width: 300px;
+    height: 500px;
+    background-color: hsl(215, 32%, 27%);
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 100px;
+}
+
+.small-box {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    width: 250px;
+    top: 20px;
+    height: 200px;
+    position: relative;
+}
+
+.container img{
+    width: 250px;
+    height: 250px;
+    align-self: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.container .titulo{
+    font-size: 18px;
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+
+.titulo:hover{
+    color:hsl(178, 100%, 50%);
+    font-weight: bold;
+}
+
+.container .texto {
+    align-self: flex-start;
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 20px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.etherum{
+    color:hsl(178, 100%, 50%);
+}
+
+.days {
+    color:hsl(215, 51%, 70%);
+}
+
+.small-box .alan-foto{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.foto-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.foto-bottom p{
+    height: 40px;
+    margin-left: 20px;
+}
+
+.foto-bottom span:hover{
+    color:hsl(178, 100%, 50%);
+    font-weight: bold;
+}
+
+
